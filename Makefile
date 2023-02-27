@@ -24,9 +24,9 @@ package: build
 
 .PHONY: db_eth
 db_eth: package
-	./substreams-sink-mongodb/devel/eth-block-meta/start_eth.sh
+	./start_eth.sh
 
 .PHONY: db_sol
 db_sol: package
-	./substreams-sink-mongodb/devel/eth-block-meta/start_sol.sh
+	./start_sol.sh
 
